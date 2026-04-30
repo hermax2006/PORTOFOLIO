@@ -1,10 +1,29 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>portofolio</title>
+    <title>Hermann Kumedzro — Dev Web & 3D Motion</title>
+    <meta name="description" content="Portfolio de Hermann Kumedzro — Développeur Web & Créateur 3D" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              dev:  '#4af0ff',
+              '3d': '#ff6b4a',
+            },
+            fontFamily: {
+              display: ['Syne', 'sans-serif'],
+              mono:    ['Space Mono', 'monospace'],
+            },
+          }
+        }
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
